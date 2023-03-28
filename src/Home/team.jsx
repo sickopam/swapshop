@@ -26,6 +26,6 @@ export default function Team() {
 const faces = [
     {id: 11, face: Ceo, name: 'Jack White', pos: 'CEO & Founder'},
     {id: 12, face: Cofounder, name: 'Brian Smith', pos: 'Co-Founder'},
-    {id: 13, face: LeBron, name: 'LeBron James', pos: 'LeBald'},
+    {id: 13, face: LeBron, name: 'LeBron James', pos: 'LeBalls'},
     {id: 14, face: Marketing, name: 'Jack Brown', pos: 'Marketing'},
 ]

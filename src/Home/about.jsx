@@ -10,7 +10,7 @@ import Vision from '../images/about/vision.svg'
 
 export default function About() {
   return (
-    <div className='py-24 px-[15rem] text-center'>
+    <div className='py-20 px-[15rem] text-center'>
         <div className='space-y-10'>
             <h2 className='text-2xl font-semibold'>Why choose <span className='text-[#4682b4]'>SwapShop</span>?</h2>
             

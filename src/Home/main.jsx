@@ -1,9 +1,12 @@
 import React from 'react'
 import Navbar from './navbar'
+import Team from './team'
 import About from './about'
+import Reviews from './reviews'
 
 import Girl from '../images/girl.svg'
-import Team from './team'
+import Trend from './trend'
+import Journey from './journey'
 
 export default function Main() {
   return (
@@ -27,6 +30,9 @@ export default function Main() {
         </div>
         <Team/>
         <About/>
+        <Reviews/>
+        <Trend/>
+        <Journey/>
     </>
   )
 }
