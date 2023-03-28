@@ -7,6 +7,7 @@ import Reviews from './reviews'
 import Girl from '../images/girl.svg'
 import Trend from './trend'
 import Journey from './journey'
+import Footer from './footer'
 
 export default function Main() {
   return (
@@ -33,6 +34,7 @@ export default function Main() {
         <Reviews/>
         <Trend/>
         <Journey/>
+        <Footer/>
     </>
   )
 }

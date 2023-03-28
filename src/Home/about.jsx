@@ -29,7 +29,7 @@ export default function About() {
             </div>
 
             <div className='flex flex-row justify-between'>
-                {foot.map((e, i) => (
+                {about.map((e, i) => (
                     <div className='grid place-items-center'>
                         <img className='pb-3' key={i} src={e.img} alt='services'></img>
                         <h4 className='font-semibold'>{e.desc}</h4>
@@ -42,7 +42,7 @@ export default function About() {
   )
 }
 
-const foot = [
+const about = [
     {id: 1, img: Truck, desc: 'Fast Delivery', desc2: 'Swift and Fast Delivery'},
     {id: 2, img: Deal, desc: 'Trusted Transactions', desc2: 'Anti Transaction Frauds'},
     {id: 3, img: Recycle, desc: 'Help the Environment', desc2: 'Contribute in Saving the Environment'},
