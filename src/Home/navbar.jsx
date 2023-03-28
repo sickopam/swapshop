@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../images/swapshop-logo.svg'
+import Logo from '../images/mainlogo.svg'
 
 const Navbar = () => {
   return (
