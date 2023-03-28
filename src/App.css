@@ -17,3 +17,9 @@
   background-color: #4682b4;
   color: #fff;
 }
+
+#faces {
+  height: 145px;
+  width: 217px;
+  border-radius: 1rem;
+}

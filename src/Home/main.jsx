@@ -1,8 +1,9 @@
 import React from 'react'
 import Navbar from './navbar'
-import Footer from './footer'
+import About from './about'
 
 import Girl from '../images/girl.svg'
+import Team from './team'
 
 export default function Main() {
   return (
@@ -22,9 +23,10 @@ export default function Main() {
                 </div>
             </div>
 
-            <img className='w-[50%]' src={Girl}/>
+            <img className='w-[50%]' src={Girl} alt='girl'/>
         </div>
-        <Footer/>
+        <Team/>
+        <About/>
     </>
   )
 }

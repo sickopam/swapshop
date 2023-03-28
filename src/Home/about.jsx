@@ -1,25 +1,27 @@
 import React from 'react'
 
-import Truck from '../images/footer/truck.svg'
-import Deal from '../images/footer/deal.svg'
-import Recycle from '../images/footer/recycle.svg'
-import Anytime from '../images/footer/247.svg'
+import Truck from '../images/about/truck.svg'
+import Deal from '../images/about/deal.svg'
+import Recycle from '../images/about/recycle.svg'
+import Anytime from '../images/about/247.svg'
 
-import Mission from '../images/footer/mission.svg'
-import Vision from '../images/footer/vision.svg'
+import Mission from '../images/about/mission.svg'
+import Vision from '../images/about/vision.svg'
 
-export default function Footer() {
+export default function About() {
   return (
-    <div className='bg-[#dcf3f0] py-24 px-[15rem] text-center'>
+    <div className='py-24 px-[15rem] text-center'>
         <div className='space-y-10'>
-            <h2 className='text-2xl font-semibold'>Why choose <a href='/' className='text-[#4682b4]'>SwapShop</a>?</h2>
+            <h2 className='text-2xl font-semibold'>Why choose <span className='text-[#4682b4]'>SwapShop</span>?</h2>
             
             <div className='flex justify-between'>
                 <div className='text-center flex flex-row'>
                     {vismis.map((prop, i) => (
                         <div key={i} className='w-[50%]'>
-                            <img src={prop.img} alt='vismis'></img>
-                            <h3>{prop.qs}</h3>
+                            <div className='flex justify-center pb-2'>
+                                <img src={prop.img} alt='vismis'></img>
+                            </div>
+                            <h3 className='font-semibold text-lg'>{prop.qs}</h3>
                             <p>{prop.ans}</p>
                         </div>
                     ))}
@@ -36,17 +38,15 @@ export default function Footer() {
                 ))}
             </div>
         </div>
-
-        
     </div>
   )
 }
 
 const foot = [
-    {id: 1, img: Truck, desc: 'Fast Delivery', desc2: 'opamdagoat'},
-    {id: 2, img: Deal, desc: 'Trusted Transactions', desc2: 'opamdagoat'},
-    {id: 3, img: Recycle, desc: 'Help the Environment', desc2: 'opamdagoat'},
-    {id: 4, img: Anytime, desc: 'Anywhere, Anytime', desc2: 'opamdagoat'},
+    {id: 1, img: Truck, desc: 'Fast Delivery', desc2: 'Swift and Fast Delivery'},
+    {id: 2, img: Deal, desc: 'Trusted Transactions', desc2: 'Anti Transaction Frauds'},
+    {id: 3, img: Recycle, desc: 'Help the Environment', desc2: 'Contribute in Saving the Environment'},
+    {id: 4, img: Anytime, desc: 'Anywhere, Anytime', desc2: 'Buy, Sell, Trade 24/7'},
 ]
 
 const vismis = [
