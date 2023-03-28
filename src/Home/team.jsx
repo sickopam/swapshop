@@ -6,7 +6,7 @@ import Marketing from '../images/team/johnny.jpeg'
 
 export default function Team() {
   return (
-    <div className='py-8 px-64 bg-[#dcf3f0]'>
+    <div id='aqua-bg' className='py-8 px-64'>
         <h1 className='font-semibold text-2xl text-center pb-8'>Meet Our <span className='text-[#4682b4]'>Team</span>!</h1>
         <div className='grid grid-cols-2 gap-y-8 place-items-center'>
             {faces.map((ppl, i) => (

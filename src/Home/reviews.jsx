@@ -4,7 +4,7 @@ import Customer from '../images/review/cust.svg'
 
 export default function Reviews() {
   return (
-    <div className='py-12 px-10 pb-16 bg-[#dcf3f0]'>
+    <div id='aqua-bg' className='py-12 px-10 pb-16'>
         <h1 className='text-center text-2xl pb-14 font-semibold'>What Our Customers Say</h1>
         <div className='flex justify-between'>
             {review.map((c, i) => (

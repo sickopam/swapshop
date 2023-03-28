@@ -8,6 +8,12 @@
   @apply font-semibold;
 }
 
+#aqua-bg {
+  background: url('../src/images/hanger1.svg') left, url('../src/images/hanger2.svg') right;
+  background-repeat: no-repeat;
+  background-color: #dcf3f0;
+}
+
 #regis {
   padding-left: 1rem;
   padding-right: 1rem;
